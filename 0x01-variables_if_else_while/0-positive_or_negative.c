@@ -4,7 +4,7 @@
 /**
  *main - It executes and prints after
  *assigns random values to integer n
- *return: Always 0 (Success)
+ *Return: Always 0 (Success)
  */
 
 int main(void)
