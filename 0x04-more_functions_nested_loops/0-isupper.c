@@ -1,16 +1,16 @@
-#include <unistd.h>
 #include "main.h"
+
 /**
-*main - checks for upper case
-*Returns: 1 if 'c' is upper case
-*Returns: 0 otherwise
+*main - _isupper fucntion to check
+*for uppercase
+*return: (1) if uppercase or (0) if not
 */
 
 int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	for (c= 'A'; c<= 'Z'; c++)
 	{
-		return (1);
+	return (1);
 	}
 return (0);
 }
